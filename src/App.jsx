@@ -10,6 +10,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
+    <div>
+      <h1> App.jsx is being used. </h1>
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -17,6 +19,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
