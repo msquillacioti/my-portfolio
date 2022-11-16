@@ -11,3 +11,121 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/**** Template CSS above. My custom CSS below. ****/
+
+
+/** Background Coloring **/
+.mid-coloring {
+  background-color: #66BFBF;
+}
+
+
+/** Fonts **/
+.title {
+  padding: 3% 5% 0% 5%;
+  font-family: "Courgette";
+  font-size: 4rem;
+}
+.subtitle {
+  font-family: "Courgette";
+  font-size: 2rem;
+  padding-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+
+/** Header Section & Navigation Bar **/
+header {
+}
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  margin-top: 0;
+}
+.container-fluid {
+  padding: 0% 4%;
+}
+.navbar {
+  padding: 0 0 0.5rem;
+}
+.navbar-brand {
+  font-family: "Courgette";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+/** Home Section **/
+.home-section {
+  text-align: center;
+}
+.profile-picture {
+  margin: 1rem;
+  border-radius: 50%;
+  border: 7px solid #66BFBF;
+}
+
+
+
+/** Background Section **/
+.background-section {
+  text-align: center;
+  padding: 3% 5% 0% 5%;
+
+}
+
+
+
+/** Portfolio Section **/
+.portfolio-section {
+  text-align: center;
+  padding: 3% 5% 0% 5%;
+}
+
+
+
+/** Resume Download Button **/
+.resume-download-section {
+  position: relative;
+  text-align: center;
+  padding: 5%;
+}
+.resume-download-button {
+  background-color: #66BFBF;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: black;
+  border-style: bold;
+}
+
+
+
+/** Footer Section **/
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  color: grey;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  font-family: "Ubuntu";
+}
+.social-icons {
+  margin: 0 2% 0 2%;
+  color: black;
+  font-size: 1.5rem;
+}
