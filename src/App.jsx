@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
+// BrowserRouter is not supported by gh-pages. 
 
 function App() {
   return (
@@ -21,6 +22,6 @@ function App() {
     </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
