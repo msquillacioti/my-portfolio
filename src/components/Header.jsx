@@ -2,6 +2,7 @@ import React from "react";
 import Background from "../pages/Background.jsx";
 import Portfolio from "../pages/Portfolio.jsx";
 
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
     <div class="container-fluid mid-coloring">
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="/">About Me</a>
+        <Link class="navbar-brand" to="/">About Me</Link>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -19,10 +20,10 @@ function Header() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/Background">Background</a>
+              <Link class="nav-link"  to="/background">Background</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Portfolio">Portfolio</a>
+              <Link class="nav-link" to="/portfolio">Portfolio</Link>
             </li>
           </ul>
         </div>
