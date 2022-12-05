@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 code {
@@ -80,8 +82,65 @@ header h1 {
 .background-section {
   text-align: center;
   padding: 3% 5% 0% 5%;
+}
+
+
+/* Education Section */
+.education-card {
+  max-width: 600px;
+  min-width: 400px;
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 50px auto;
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+.education-card-top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #00cec9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.education-card-name {
+  font-size: 2.0rem;
+  font-family: "McLaren", cursive;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex: 1;
+  margin: 2rem 0 0 30px;
+}
+.education-card img {
+  margin: 30px 20px 0 0;
+}
+.circle-img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+.education-card-bottom {
+  margin-top: 90px;
+}
+.education-card-info {
+  margin: 10px 0 0 30px;
+  color: black;
+  font-family: "Montserrat-Light";
+  font-size: 1.1rem;
 
 }
+
+
+
+
+
+
 
 
 
