@@ -13,7 +13,8 @@ function Portfolio() {
         <div>
           <h1 class="title">Portfolio</h1>
         </div>
-        <h3>*Content directly from Portfolio.jsx file.*</h3>
+        <h3>* Portfolio COMING SOON *</h3>
+        <img src={"http://www.clker.com/cliparts/1/c/2/a/11970890841431512955Milkman666_Cone.svg.svg.hi.png"} alt={"Traffic Cone"} />
       </div>
       <DownloadResume />
       <Footer />
