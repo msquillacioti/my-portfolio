@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f25c27ed.css",
-    "main.js": "/my-portfolio/static/js/main.272c97a2.js",
+    "main.css": "/my-portfolio/static/css/main.d81f3062.css",
+    "main.js": "/my-portfolio/static/js/main.eee6b642.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/profilepicture.png": "/my-portfolio/static/media/profilepicture.a2c1acbc434b5159292c.png",
-    "static/media/Resume_Michael_Squillacioti.pdf": "/my-portfolio/static/media/Resume_Michael_Squillacioti.ed1f08a0c2da84aba9e4.pdf",
+    "static/media/Resume_Michael_Squillacioti.pdf": "/my-portfolio/static/media/Resume_Michael_Squillacioti.92563808f082fea5e5b7.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.f25c27ed.css.map": "/my-portfolio/static/css/main.f25c27ed.css.map",
-    "main.272c97a2.js.map": "/my-portfolio/static/js/main.272c97a2.js.map",
+    "main.d81f3062.css.map": "/my-portfolio/static/css/main.d81f3062.css.map",
+    "main.eee6b642.js.map": "/my-portfolio/static/js/main.eee6b642.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f25c27ed.css",
-    "static/js/main.272c97a2.js"
+    "static/css/main.d81f3062.css",
+    "static/js/main.eee6b642.js"
   ]
 }
