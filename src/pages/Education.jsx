@@ -17,15 +17,14 @@ function createEducationCard(educationEntry) {
   );
 }
 
-function Background() {
+function Education() {
   return (
     <div>
       <Header />
       <div class="background-section">
         <div>
-          <h1 class="title">Background</h1>
+          <h1 class="title">Education</h1>
         </div>
-        <h3>*Content directly from Background.jsx file.*</h3>
         <dl>{education.map(createEducationCard)}</dl>
       </div>
       <DownloadResume />
@@ -34,4 +33,4 @@ function Background() {
   );
 }
 
-export default Background;
+export default Education;

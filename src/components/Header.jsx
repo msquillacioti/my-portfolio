@@ -1,5 +1,6 @@
 import React from "react";
-import Background from "../pages/Background.jsx";
+import Education from "../pages/Education.jsx";
+import WorkExperience from "../pages/WorkExperience.jsx";
 import Portfolio from "../pages/Portfolio.jsx";
 
 import { Link } from "react-router-dom";
@@ -20,7 +21,10 @@ function Header() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <Link class="nav-link"  to="/background">Background</Link>
+              <Link class="nav-link"  to="/education">Education</Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link"  to="/workexperience">Work Experience</Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/portfolio">Portfolio</Link>

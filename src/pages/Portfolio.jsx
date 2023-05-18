@@ -9,7 +9,7 @@ function Portfolio() {
   return (
     <div>
       <Header />
-      <div class="portfolio-section">
+      <div class="background-section">
         <div>
           <h1 class="title">Portfolio</h1>
         </div>

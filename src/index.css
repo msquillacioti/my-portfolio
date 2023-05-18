@@ -25,7 +25,7 @@ code {
 
 /** Fonts **/
 .title {
-  padding: 3% 5% 0% 5%;
+  padding: 3rem 5% 0rem 5%;
   font-family: "Courgette";
   font-size: 4rem;
 }
@@ -62,6 +62,7 @@ header h1 {
 .nav-link {
   font-size: 1.5rem;
   font-family: "Montserrat-Light";
+  margin: 0 5px;
 }
 
 
@@ -74,19 +75,20 @@ header h1 {
   margin: 1rem;
   border-radius: 50%;
   border: 7px solid #66BFBF;
+  height: 500px;
 }
 
 
 
-/** Background Section **/
+/** Background Section for Education, Work Experience, and Portfolio **/
 .background-section {
   text-align: center;
-  padding: 3% 5% 0% 5%;
+  padding: 0% 5% 0% 5%;
 }
 
 
 /* Education Section */
-.education-card {
+.card {
   max-width: 600px;
   min-width: 400px;
   border-radius: 25px;
@@ -94,11 +96,10 @@ header h1 {
   padding: 25px 15px;
   background-color: #81ecec;
   margin: 50px auto;
-  height: 200px;
   box-shadow: 0 2px 5px #ccc;
   text-align: left;
 }
-.education-card-top {
+.card-top {
   border-radius: 25px 25px 0 0;
   height: 100px;
   width: 100%;
@@ -108,7 +109,7 @@ header h1 {
   left: 0;
   display: flex;
 }
-.education-card-name {
+.card-name {
   font-size: 2.0rem;
   font-family: "McLaren", cursive;
   font-weight: bold;
@@ -117,7 +118,7 @@ header h1 {
   flex: 1;
   margin: 2rem 0 0 30px;
 }
-.education-card img {
+.card img {
   margin: 30px 20px 0 0;
 }
 .circle-img {
@@ -125,10 +126,10 @@ header h1 {
   width: 140px;
   height: 140px;
 }
-.education-card-bottom {
+.card-bottom {
   margin-top: 90px;
 }
-.education-card-info {
+.card-info {
   margin: 10px 0 0 30px;
   color: black;
   font-family: "Montserrat-Light";
@@ -143,20 +144,11 @@ header h1 {
 
 
 
-
-/** Portfolio Section **/
-.portfolio-section {
-  text-align: center;
-  padding: 3% 5% 0% 5%;
-}
-
-
-
 /** Resume Download Button **/
 .resume-download-section {
   position: relative;
   text-align: center;
-  padding: 5%;
+  padding: 2rem 5% 2rem 5%;
 }
 .resume-download-button {
   background-color: #66BFBF;

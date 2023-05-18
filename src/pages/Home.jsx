@@ -12,9 +12,10 @@ function Home() {
         <div>
           <h1 class="title">Welcome!</h1>
           <h2 class="subtitle">My name is Michael Squillacioti.</h2>
+
         </div>
         <img className="profile-picture" src={require("../images/profilepicture.png")} alt={"Profile Picture"} />
-        <h3>*Content directly from Home.jsx file.*</h3>
+        <h3> Programmer | Mechanical Engineer | MBA Graduate </h3>
       </div>
       <DownloadResume />
       <Footer />
