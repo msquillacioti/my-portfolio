@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,18 +10,16 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /**** Template CSS above. My custom CSS below. ****/
 
-
 /** Background Coloring **/
 .mid-coloring {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
 }
-
 
 /** Fonts **/
 .title {
@@ -35,7 +33,6 @@ code {
   padding-top: 0.25rem;
   margin-bottom: 0;
 }
-
 
 /** Header Section & Navigation Bar **/
 header {
@@ -64,8 +61,6 @@ header h1 {
   font-family: "Montserrat-Light";
 }
 
-
-
 /** Home Section **/
 .home-section {
   text-align: center;
@@ -73,17 +68,14 @@ header h1 {
 .profile-picture {
   margin: 1rem;
   border-radius: 50%;
-  border: 7px solid #66BFBF;
+  border: 7px solid #66bfbf;
 }
-
-
 
 /** Background Section **/
 .background-section {
   text-align: center;
   padding: 3% 5% 0% 5%;
 }
-
 
 /* Education Section */
 .education-card {
@@ -109,13 +101,13 @@ header h1 {
   display: flex;
 }
 .education-card-name {
-  font-size: 2.0rem;
+  font-size: 1.6rem;
   font-family: "McLaren", cursive;
   font-weight: bold;
   color: black;
   display: flex;
   flex: 1;
-  margin: 2rem 0 0 30px;
+  margin: 2.4rem 0 0 30px;
 }
 .education-card img {
   margin: 30px 20px 0 0;
@@ -133,24 +125,13 @@ header h1 {
   color: black;
   font-family: "Montserrat-Light";
   font-size: 1.1rem;
-
 }
-
-
-
-
-
-
-
-
 
 /** Portfolio Section **/
 .portfolio-section {
   text-align: center;
   padding: 3% 5% 0% 5%;
 }
-
-
 
 /** Resume Download Button **/
 .resume-download-section {
@@ -159,7 +140,7 @@ header h1 {
   padding: 5%;
 }
 .resume-download-button {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   font-family: "Ubuntu";
   font-weight: bold;
   font-size: 1.25rem;
@@ -167,13 +148,10 @@ header h1 {
   border-style: bold;
 }
 
-
-
 /** Footer Section **/
 footer {
-  position: relative;
+  position: absolute;
   text-align: center;
-  bottom: 0;
   width: 100%;
   height: 2.5rem;
 }
