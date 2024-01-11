@@ -1,7 +1,7 @@
 const education = [
     {
         schoolName: "North Carolina State University",
-        img: "https://cdn.freebiesupply.com/logos/large/2x/nc-state-university-logo-png-transparent.png",
+        img: "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/North_Carolina_State_University_seal.svg/1200px-North_Carolina_State_University_seal.svg.png",
         time: "January 2023 - Present",
         degree: "Certificate: Computer Programming",
     },
