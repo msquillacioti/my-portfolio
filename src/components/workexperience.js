@@ -1,4 +1,12 @@
 const workexperience = [
+{
+    companyName: "Supply Chain Partner",
+    img:
+      "https://media.licdn.com/dms/image/C560BAQFXVpC6prJ5NA/company-logo_200_200/0/1630615747701/the_supplychain_partnership_logo?e=1712793600&v=beta&t=A0W5PiReUidEyuwxJLvs4jwtVfHHfx1qjUR3UbQW9WQ",
+    position: "Junior Analyst",
+    time: "August 2023 - Present",
+    description: "Implemented Coupa systems to facilitate easier workflow for procurement operations. Integrated Dell Boomi automation solutions for cleaner transmission of data between systems."
+  },  
   {
     companyName: "ARCO/Murray",
     img:
